@@ -42,7 +42,8 @@ include(src/cmake/auto_install_paths.cmake)
 # Example:  set(MYPPFT_PATH "/home/user/pfft/" CACHE STRING "PFFT guess path"), assuming that the library files are in
 #					 /home/user/pfft/bin/  and t he include file in /home/user/pfft/include/
 
- set(MYPFFT_PATH "/home/tomas_mendes/projects/cosmolattice/dependencies/MyPFFT/pfft-1.0.8-alpha" CACHE STRING "PFFT guess path")
+#need to change for Cluster?
+set(MYPFFT_PATH "/home/tomas_mendes/projects/cosmolattice/dependencies/MyPFFT/pfft-1.0.8-alpha" CACHE STRING "PFFT guess path")
 
 #########################################################################################################################
 

@@ -10,7 +10,8 @@
 
 RUNPATH=/home/tomas_mendes/projects/cosmolattice
 cd $RUNPATH
- 
+
+#WHAT IS THIS?
 module purge
 
 module load gcc-11.3

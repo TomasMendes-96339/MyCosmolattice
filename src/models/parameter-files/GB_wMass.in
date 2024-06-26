@@ -5,7 +5,7 @@ outputfile = ./
 expansion = true
 fixedBackground = true
 omegaEoS = 0.333
-H0 = 1e5
+H0 = 1e6
 evolver = VV2
 
 #Lattice
@@ -40,6 +40,6 @@ initial_momenta = 0   # homogeneous amplitudes in GeV2
 #Model Parameters
 lambda = 0 #1e-4
 xi = 1
-cutoff = 1.1e5
-M = 1e8
+cutoff = 1.1e6
+M = 1e7
 

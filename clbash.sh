@@ -296,10 +296,10 @@ for (( i=0; i<=lambda_steps; i++ )) do #loop over lambda values
 		printf "\n"
 		printf "\n"
 
-		mpirun GB_wMass input=../src/models/parameter-files/GB_wMass.in N=$n_lattice kIR=$k_min dt=$deltat tMax=$t_max tOutputVerb=10 kCutOff=$k_max M=$m_val cutoff=$lambda_val baseSeed=1922 outputfile=./run_$dir_index/
+		#mpirun GB_wMass input=../src/models/parameter-files/GB_wMass.in N=$n_lattice kIR=$k_min dt=$deltat tMax=$t_max tOutputVerb=10 kCutOff=$k_max #M=$m_val cutoff=$lambda_val baseSeed=1922 outputfile=./run_$dir_index/
 
 		# Launching CosmoLattice
-        #sbatch --dependency=singleton --job-name=GB_DM /home/tomas_mendes/projects/cosmolattice/cl_GB_bash.sh $n_lattice $t_max $Hkin_val $cutoff $m_val  $k_min $k_max $n_run $dir_index
+        sbatch --dependency=singleton --job-name=GB_DM /home/tomas_mendes/projects/cosmolattice/cl_GB_bash.sh $n_lattice $t_max $Hkin_val $cutoff $m_val  $k_min $k_max $n_run $dir_index
 
 
 	done

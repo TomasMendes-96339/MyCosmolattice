@@ -166,7 +166,7 @@ private:
     auto potentialTerms(Tag<2>) // IQuadratic
     {
         //return  xi*xi * (-24) * pow<4>(aDotI/aI)  * pow<2>(fldS(0_c)) *48;
-        return  -24*xi*pow<2>(cStar/cutoff)*pow<4>(aDotI/aI)  * pow<2>(fldS(0_c));
+        return  -24*xi*pow<2>(cStar/cutoff)*pow<4>(aDotI/aI) * pow<2>(fldS(0_c));
     }
 
  
