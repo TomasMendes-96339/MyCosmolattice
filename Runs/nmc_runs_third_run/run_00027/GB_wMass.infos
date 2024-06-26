@@ -1,0 +1,49 @@
+Parameters: 
+Important parameters:
+
+     tOutputRareFreq       10                  
+             evolver       VV2                 
+           expansion       true                
+                tMax       1000                
+                   N       32                  
+             withGWs       false               
+                  dt       0.01                
+                 kIR       0.04                
+       tOutputInfreq       100                 
+                  t0       0                   
+         tOutputFreq       0.1                 
+             kCutOff       inf                 
+
+
+Other parameters:
+
+           tolerance       -1                  
+       print_headers       false               
+         hdf5Spectra       false               
+           deltaKBin       1                   
+     energy_snapshot       ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖ ✖
+                  H0       1e12                
+             PS_type       2                   
+            omegaEoS       0.333               
+              cutoff       9999999990.5954316026
+                   m       .092                
+          outputfile       ./run_00027/        
+            baseSeed       1994                
+              lambda       0                   
+                  xi       1                   
+     fixedBackground       true                
+         tOutputVerb       10                  
+     initial_momenta       0                   
+         tBackupFreq       -1                  
+               input       ../src/models/parameter-files/GB_wMass.in
+          PS_version       1                   
+    spectraVerbosity       0                   
+             OccNumb       true                
+       appendToFiles       false               
+     GWprojectorType       1                   
+  initial_amplitudes       0                   
+
+The simulation started on the d16 m5 y2024 around h19m20.
+It will be running on a grid of (2,1,1) cores.The simulation finished on the d16 m5 y2024 around h19m21.
+The timer indicates that it ran for 58.499s.
+As it ran on 2 cores, this corresponds to 0.0324994 core hours.

@@ -1,0 +1,45 @@
+#Output
+outputfile = ./
+
+#Evolution
+expansion = true
+fixedBackground = true
+omegaEoS = 0.333
+H0 = 1e5
+evolver = VV2
+
+#Lattice
+N = 64
+dt = 0.1
+kIR = 0.043
+
+#Times
+tOutputFreq = 0.1
+tOutputInfreq = 100
+tMax = 1000
+
+#HDF5
+#tOutputRareFreq = 1
+#energy_snapshot = E_S_F
+
+#Spectra options
+PS_type = 2
+PS_version = 1
+OccNumb = true
+
+#GWs
+GWprojectorType = 1
+withGWs = false
+
+#IC
+baseSeed = 1922
+#kCutOff = 1
+initial_amplitudes = 0 # homogeneous amplitudes in GeV
+initial_momenta = 0   # homogeneous amplitudes in GeV2
+
+#Model Parameters
+lambda = 0 #1e-4
+xi = 1
+cutoff = 1.1e5
+M = 1e8
+
