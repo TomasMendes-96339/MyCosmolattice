@@ -1,4 +1,0 @@
-/home/tomas_mendes/projects/cosmolattice/nmc_runs_8th_run/CMakeFiles/cosmolattice.dir
-/home/tomas_mendes/projects/cosmolattice/nmc_runs_8th_run/CMakeFiles/clean-cmake.dir
-/home/tomas_mendes/projects/cosmolattice/nmc_runs_8th_run/CMakeFiles/edit_cache.dir
-/home/tomas_mendes/projects/cosmolattice/nmc_runs_8th_run/CMakeFiles/rebuild_cache.dir
